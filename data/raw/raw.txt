@@ -1,0 +1,8 @@
+My name is Ankita.
+This project is a personal LLM chatbot.
+RAG means Retrieval Augmented Generation.
+It reduces hallucination by retrieving relevant documents before answering.
+A subscription for using the ChatGPT app/website (e.g., GPT-4 in chat).
+Costs a monthly fee (billed in USD).
+Gives faster speeds, priority access, and advanced models in the chat interface only.
+Does NOT include access to the API for developers.

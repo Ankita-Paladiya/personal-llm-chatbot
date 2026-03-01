@@ -1,0 +1,2 @@
+I built a chatbot using OpenAI API, embeddings, FAISS, and Flask.
+The system stores user memory and uses retrieved context to answer accurately.
