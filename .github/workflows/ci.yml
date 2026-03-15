@@ -35,6 +35,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Ingest documents
+        run: |
+          python -m scripts.01_ingest_docs
+
+      - name: Build FAISS index
+        run: |
+          python -m scripts.02_build_index
+
       - name: Run evaluation pipeline
         run: |
           python -m scripts.03_run_eval
