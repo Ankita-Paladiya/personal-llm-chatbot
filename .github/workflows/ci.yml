@@ -49,4 +49,4 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -f docker/Dockerfile.backend -t personal-chatbot-backend .
+          docker build -f docker/dockerfile.backend -t personal-chatbot-backend .
