@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git
+.gitignore
+.venv/
+venv/
+conda-meta/
+.pytest_cache/
+.coverage
+README.md
+docker-compose.yml
