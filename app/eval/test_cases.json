@@ -1,0 +1,23 @@
+[
+  {
+    "id": "tc_001",
+    "user_id": "eval_user_1",
+    "question": "What is RAG?",
+    "expected_keywords": ["Retrieval", "Generation", "context"],
+    "min_sources": 1
+  },
+  {
+    "id": "tc_002",
+    "user_id": "eval_user_1",
+    "question": "Why is RAG useful?",
+    "expected_keywords": ["hallucination", "context", "relevant"],
+    "min_sources": 1
+  },
+  {
+    "id": "tc_003",
+    "user_id": "eval_user_2",
+    "question": "What is Ankita building?",
+    "expected_keywords": ["chatbot"],
+    "min_sources": 1
+  }
+]

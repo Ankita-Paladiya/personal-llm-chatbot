@@ -16,7 +16,8 @@ class Settings:
     # App
     app_env: str = os.getenv("APP_ENV", "dev")
     flask_host: str = os.getenv("FLASK_HOST", "0.0.0.0")
-    flask_port: int = int(os.getenv("FLASK_PORT", "8000"))
+    #flask_port: int = int(os.getenv("FLASK_PORT", "8000"))
+    flask_port: int = int(os.getenv("PORT", os.getenv("FLASK_PORT", "8000")))
 
     # RAG + memory
     rag_top_k: int = int(os.getenv("RAG_TOP_K", "5"))
